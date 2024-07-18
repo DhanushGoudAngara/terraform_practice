@@ -1,5 +1,6 @@
 resource "google_service_account" "default" {
-  account_id   = "dhanush@dynamic-beacon-426315-h9.iam.gserviceaccount.com"
+
+  account_id   = "my-custom-sa"
   display_name = "Custom SA for VM Instance"
 }
 
