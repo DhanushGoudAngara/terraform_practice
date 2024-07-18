@@ -1,5 +1,9 @@
+provider "google" {
+  project     = "dynamic-beacon-426315-h9"
+  region      = "us-central1"
+  zone        = "us-central1-c"
+}
 resource "google_service_account" "default" {
-
   account_id   = "my-custom-sa"
   display_name = "Custom SA for VM Instance"
 }
