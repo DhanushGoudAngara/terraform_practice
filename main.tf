@@ -1,5 +1,5 @@
 resource "google_service_account" "default" {
-  account_id   = "287047008114-compute@developer.gserviceaccount.com"
+  account_id   = "my-custom-sa"
   display_name = "Custom SA for VM Instance"
 }
 
